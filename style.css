@@ -1,145 +1,144 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --dark-cyan: hsl(158, 36%, 37%);
-    --cream: hsl(30, 38%, 92%);
-    --very-dark-blue: hsl(212, 21%, 14%);
-    --dark-grayish-blue: hsl(228, 12%, 48%);
-    --white: hsl(0, 0%, 100%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
-    background-color: var(--cream);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--cream);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
 main {
-    background-color: var(--white);
-    border-radius: 1rem;
-    width: 35%;
-    height: 55%;
-    display: flex;
-    margin-bottom: 20px;
+  background-color: var(--white);
+  border-radius: 1rem;
+  width: 35%;
+  height: 55%;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 /* Sections */
 
 section.img,
 section.product {
-    width: 50%;
-    min-height: 100%;
+  width: 50%;
+  min-height: 100%;
 }
 
 section.product {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 40px;
 }
 
 /* Img */
 
 img.product__image__desktop {
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
-    width: 100%;
-    height: 100%;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
 /* Cart btn */
 
 div.cart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    background-color: var(--dark-cyan);
-    color: var(--white);
-    width: 100%;
-    border-radius: 1rem;
-    height: 60px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  width: 100%;
+  border-radius: 1rem;
+  height: 60px;
+  cursor: pointer;
 }
 
 div.cart:hover {
-    background-color: var(--very-dark-blue);
+  background-color: var(--very-dark-blue);
 }
 
 div.cart p {
-    font-size: 18px;
-    padding: 10px;
+  font-size: 18px;
+  padding: 10px;
 }
 
 /* Product Prices */
 
 div.product__prices {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 p.product__sale__price {
-    font-size: 35px;
-    color: var(--dark-cyan);
+  font-size: 35px;
+  color: var(--dark-cyan);
 }
 
 p.product__main__price {
-    margin-left: 20px;
-    font-size: 15px;
-    color: var(--dark-grayish-blue);
-    text-decoration: line-through;
+  margin-left: 20px;
+  font-size: 15px;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
 }
 
 /* Font */
 
 .fraunces {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 }
 
 .montserrat {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 p.product__type {
-    color: var(--dark-grayish-blue);
-    letter-spacing: 10px;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 10px;
 }
 
 p.product__name {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 p.product__description {
-    font-size: 15px;
-    color: var(--dark-grayish-blue);
-    line-height: 25px;
+  font-size: 15px;
+  color: var(--dark-grayish-blue);
+  line-height: 25px;
 }
 
 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* Footer */
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
