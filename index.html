@@ -27,7 +27,11 @@
 
     <section class="img">
 
-      <div class="product__image__desktop"></div>
+      <!-- <div class="product__image__desktop"></div> -->
+      <picture>
+        <source media="(max-width:650px)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Parfum" style="width:100%; height: 100%;">
+      </picture>
 
     </section>
 
@@ -37,9 +41,9 @@
         PERFUME
       </p>
 
-      <p class="product__name fraunces">
+      <h1 class="product__name fraunces">
         Gabrielle Essence Eau De Parfum
-      </p>
+      </h1>
 
       <p class="product__description montserrat">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
